@@ -1,0 +1,87 @@
+.cv{
+	background-color: rgb(216, 199, 162);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container{
+	background: rgb(245, 245, 245);
+	border: 1px solid white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+   
+}
+#imgPerf{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px solid black;
+}
+#font0{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#font1{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#font2{
+    font-size: 12px;
+    color: black;
+    text-align: justify;
+    
+}
+#font3{
+    font-size: 18px;
+    color: rgb(163, 114, 7);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fecha{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+}
+.bloque1 h1{
+    font-size: 60px; 
+    color: rgb(163, 114, 7);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#icons{
+    color: rgb(163, 114, 7);
+}
+.bloque2{
+    padding: 20px;
+ /*border-right: thick solid rgb(105, 105, 105);
+ height:100%;
+ right: 0%;
+ position: absolute;*/
+}
+.bloque2 h4{
+    font-size: 12px;
+    padding: 6px;
+}
+.bloque3{
+    padding: 20px;
+}
+progress[value] {
+    width: 200px;
+    height: 10px;
+  
+    /* Reinicializar estilos */
+  
+    appearance: none;
+    -webkit-appearance: none;
+  
+  }
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(167, 167, 167);
+    border-radius: 8px;
+  }
+  progress[value]::-webkit-progress-value {
+    background-color: rgb(163, 114, 7);
+    border-radius: 8px;
+}
+  
